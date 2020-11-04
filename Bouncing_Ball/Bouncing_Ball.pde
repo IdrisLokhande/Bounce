@@ -11,8 +11,6 @@ float easing = 1;
 float gravity = 0.1;
 float speed;
 
-boolean yes = true;
-
 color c = 255;
 
 void setup() {
@@ -34,10 +32,9 @@ void draw() {
   
   ellipse(x, y, s, s);
   
-  if(yes){
   y+=speed;
   speed+=gravity;
-  }
+  
   if(y>=500){
    speed *= z;
    y=abs(500);
