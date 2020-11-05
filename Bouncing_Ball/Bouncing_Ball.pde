@@ -1,15 +1,4 @@
-float x = 320;
-float y = 75;
-float z = -0.7;
-float s = 15;
-
-float x1 = -20;
-float x2 = 660;
-
-float easing = 1;
-
-float gravity = 0.1;
-float speed;
+float x = 320, y = 75, z = -0.7,s = 15, x1 = -20, x2 = 660, easing = 1, gravity = 0.1, speed;
 
 color c = 255;
 
@@ -31,7 +20,7 @@ void draw() {
   stroke(c);
   
   ellipse(x, y, s, s);
-  
+ 
   y+=speed;
   speed+=gravity;
   
@@ -44,7 +33,6 @@ void draw() {
    z*=0.005;
  }
   stroke(255);
-  
   strokeWeight(3);
   line(x1,518,x2,518);
   
@@ -62,12 +50,14 @@ void mousePressed(){
   gravity = 0;
   speed = 0;
   c = 140;
+  
   cursor(HAND);
 }
 void mouseDragged(){
   gravity = 0;
   speed = 0;
   c = 140;
+  
   cursor(HAND);
   
   float targetX = mouseX;
@@ -96,7 +86,7 @@ void mouseReleased(){
   c = 255;
   
   cursor(ARROW);
-  
+
   if(y<=100&&y>=0){
   z=-0.7;
   z+=0.0005;
