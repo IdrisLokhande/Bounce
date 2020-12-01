@@ -26,7 +26,7 @@ float xl[] = {692.5,692.5}, gravity[] = {0.1,0.1}, breaker[] = {0,0}, animatedEl
 
 //****
 // breaker[] is for faces
-// gravity[] is for thr gravity of the letters (gravity[0]) at the start and for the ball (gravity[1])
+// gravity[] is for the gravity of the letters (gravity[0]) at the start and for the ball (gravity[1])
 // xl[] is for the line at the menu under the ENTER text
 // animatedEllipse[] is for the ellipse at the loading screen (animatedEllipse[0] for gravity, animatedEllipse[1] for the bounce and animatedEllipse[2] for the radius)
 //****
