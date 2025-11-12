@@ -1,6 +1,6 @@
 //****
-//Bouncing Ball v1.7.0 by Idris Lokhande
-//Subscribe to my channel Shining Times on YouTube
+// Bouncing Ball v1.7.0 by Idris Lokhande
+// Made this while I was a teen, so expect major inconsistencies in the way code is written
 //****
 import controlP5.*;
 
@@ -920,3 +920,4 @@ if(correct[16]==true){
 //****
 //END OF THE CODE
 //****
+
